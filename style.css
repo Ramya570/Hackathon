@@ -1,0 +1,118 @@
+body{
+  margin:0;
+  font-family:"Segoe UI", sans-serif;
+  background:#F6F8F3;
+  color:#3e2723;
+}
+
+/* HEADER */
+header{
+  background:#5F8D6E;
+  color:white;
+  text-align:center;
+  padding:26px;
+  border-radius:0 0 40px 40px;
+}
+
+/* VISUAL FARM */
+#visualFarm{
+  display:flex;
+  justify-content:center;
+  margin:35px 0;
+}
+
+.soil{
+  width:280px;
+  height:150px;
+  background:#8B5E3C;
+  border-radius:0 0 90px 90px;
+  position:relative;
+  box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* SEED */
+.seed{
+  width:14px;
+  height:14px;
+  background:#4E342E;
+  border-radius:50%;
+  position:absolute;
+  bottom:32px;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+/* SPROUT */
+.sprout{
+  position:absolute;
+  bottom:32px;
+  left:50%;
+  width:7px;
+  height:10px;
+  background:#2E7D32;
+  border-radius:10px;
+  transform:translateX(-50%);
+  transition:height 1s ease;
+}
+
+/* STATUS */
+#statusBar{
+  background:white;
+  margin:20px;
+  padding:20px;
+  border-radius:20px;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  font-weight:600;
+}
+
+/* DECISION */
+#decision{
+  background:#EEF5EE;
+  padding:22px;
+  margin:20px;
+  border-radius:22px;
+  font-size:18px;
+}
+
+/* ACTIONS */
+#actions{
+  margin:20px;
+}
+
+#actions button{
+  width:100%;
+  margin:14px 0;
+  padding:18px;
+  font-size:18px;
+  border:none;
+  border-radius:32px;
+  background:#A8D5BA;
+  color:#1B4332;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+#actions button:hover{
+  background:#5F8D6E;
+  color:white;
+}
+
+/* COMMUNITY */
+#community{
+  background:white;
+  margin:20px;
+  padding:22px;
+  border-radius:22px;
+  font-size:16px;
+}
+
+/* OUTCOME */
+#outcome{
+  margin:30px;
+  font-size:26px;
+  font-weight:bold;
+  color:#2E7D32;
+  text-align:center;
+}

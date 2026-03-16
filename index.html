@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8">
+<title>மதுரை இயற்கை விவசாய ஆலோசகர்</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🌾 மதுரை இயற்கை விவசாய ஆலோசகர்</h1>
+  <p>மண்ணை கேளுங்கள் • சரியான முடிவு எடுங்கள்</p>
+</header>
+
+<section id="visualFarm">
+  <div class="soil">
+    <div class="seed"></div>
+    <div class="sprout"></div>
+  </div>
+</section>
+
+<main>
+
+<section id="statusBar">
+  <div>🌱 பருவம்: <span id="season"></span></div>
+  <div>🌍 மண் நிலை: <span id="soil"></span></div>
+  <div>🐛 பூச்சி அபாயம்: <span id="risk"></span></div>
+</section>
+
+<section id="decision">
+  <h2>📌 இப்போது என்ன செய்ய வேண்டும்?</h2>
+  <div id="recommendation"></div>
+</section>
+
+<section id="actions">
+  <button onclick="action('neem')">🌿 வேப்ப எண்ணெய் தெளிக்கவும்</button>
+  <button onclick="action('mulch')">🍂 மண் மூடல் செய்யவும்</button>
+  <button onclick="action('delay')">⏳ விதைப்பு தாமதிக்கவும்</button>
+</section>
+
+<section id="community">
+  <h2>🤝 விவசாய அனுபவ அறிவு</h2>
+  <p>🌱 மண் அறிவு: <span id="soilWisdom"></span></p>
+  <p>🐛 பூச்சி அறிவு: <span id="pestWisdom"></span></p>
+  <p>💧 நீர் மேலாண்மை அறிவு: <span id="waterWisdom"></span></p>
+</section>
+
+<section id="outcome">
+  <h2 id="result"></h2>
+</section>
+
+</main>
+
+</body>
+<script src="app.js"></script>
+</html>
